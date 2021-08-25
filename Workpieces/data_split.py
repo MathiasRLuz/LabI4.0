@@ -3,9 +3,9 @@ from pathlib import Path
 import random
 	
 pasta=os.getcwd()
-pasta=os.path.join(pasta,'rivet_class')
+pasta=os.path.join(pasta,'Workpieces')
 
-CATEGORIES = ["bad_rivet", "good_rivet", "no_rivet"]
+CATEGORIES = ["black", "metal", "red"]
 for category in CATEGORIES:    
     folder=os.path.join(pasta,category)
     print(folder)        
