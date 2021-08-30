@@ -5,9 +5,6 @@ import math
 import os
 import time
 
-print(os.listdir('Workpieces/red/'))
-
-
 for tipo_workpiece in range(3):
   if tipo_workpiece == 0:
     tipo = "metal/"
